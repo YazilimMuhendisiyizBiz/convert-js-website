@@ -25,6 +25,7 @@ $(function(){
 			"astronomical":"Astronomik",
 			"speed":"Hız",
 			"periodic":"Periyodik"
+			"value":"Değer"
 		};
 
 		var en={
@@ -41,6 +42,7 @@ $(function(){
 			"astronomical":"Astronomical",
 			"speed":"Speed",
 			"periodic":"Periodic"
+			"value":"Value"
 		};
 
 		function translate(lang)
