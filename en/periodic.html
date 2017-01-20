@@ -1,0 +1,238 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Convert JS - Test</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Convert.js-->
+    <script src="../convert.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<nav class="navbar navbar-default" style="margin-bottom:0px">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html">Convert JS</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="introduction.html">Başlangıç</a></li>    
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../tr/introduction.html">Turkish</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <div class="jumbotron text-center" style="padding-top: 10px;padding-bottom: 10px;">
+        <h2>Convert.js</h2>
+        <p><!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/YazilimMuhendisiyizBiz/convert.js" data-style="mega" data-count-href="/YazilimMuhendisiyizBiz/convert.js/stargazers" data-count-api="/repos/YazilimMuhendisiyizBiz/convert.js#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star YazilimMuhendisiyizBiz/convert.js on GitHub">Star</a></p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <ul class="left-menu">
+                    <li><a href="introduction.html">Getting Started</a></li>
+                    <li>Conversions</li>
+                        <ul>
+                            <li class="sub-menu"><a href="metric.html">Metric</a></li>
+                            <li class="sub-menu "><a href="time.html">Timr</a></li>
+                            <li class="sub-menu"><a href="dataunit.html">Data Unit</a></li>
+                            <li class="sub-menu"><a href="energy.html">Energy</a></li>
+                            <li class="sub-menu"><a href="astronomical.html">Astronomical</a></li>
+                            <li class="sub-menu"><a href="speed.html">Speed</a></li>
+                            <li class="sub-menu"><a href="temperature.html">Temperature</a></li>
+                            <li class="sub-menu menu-active"><a href="periodic.html">Periodic</a></li>
+                        </ul>
+                </ul>
+            </div>
+            <div class="col-md-10">
+               <h1>Periodic conversion of table atomic numbers into symbols</h1>
+
+                <hr>
+                    <b>Usage</b>
+                    <pre>convert.Periodic(veri)</pre>
+                <hr>
+
+                <b>Parameters:</b>
+                <div class="well well-lg" style="font-size: 16px">
+                    Data => The atomic number we want to convert
+                </div>
+                <hr>
+                <b>Source and Target Types:</b>
+                The elements in the periodic table are sorted by atomic numbers. In this page all the elements are given with the symbols of atomic numbers.
+                <ul>
+                <b>List of elements:</b>
+                    <li>1 H</li>
+                    <li>2 He</li>
+                    <li>3 Li</li>
+                    <li>4 Be</li>
+                    <li>5 B</li>
+                    <li>6 C</li>
+                    <li>7 N</li>
+                    <li>8 O</li>
+                    <li>9 F</li>
+                    <li>10 Ne</li>
+                    <li>11 Na</li>
+                    <li>12 Mg</li>
+                    <li>13 Al</li>
+                    <li>14 Si</li>
+                    <li>15 P</li>
+                    <li>16 S</li>
+                    <li>17 Cl</li>
+                    <li>18 Ar</li>
+                    <li>19 K</li>
+                    <li>20 Ca</li>
+                    <li>21 Sc</li>
+                    <li>22 Ti</li>
+                    <li>23 V</li>
+                    <li>24 Cr</li>
+                    <li>25 Mn</li>
+                    <li>26 Fe</li>
+                    <li>27 Co</li>
+                    <li>28 Ni</li>
+                    <li>29 Cu</li>
+                    <li>30 Zn</li>
+                    <li>31 Ga</li>
+                    <li>32 Ge</li>
+                    <li>33 As</li>
+                    <li>34 Se</li>
+                    <li>35 Br</li>
+                    <li>36 Kr</li>
+                    <li>37 Rb</li>
+                    <li>38 Sr</li>
+                    <li>39 Y</li>
+                    <li>40 Zr</li>
+                    <li>41 Nb</li>
+                    <li>42 Mo</li>
+                    <li>43 Tc</li>
+                    <li>44 Ru</li>
+                    <li>45 Rh</li>
+                    <li>46 Pd</li>
+                    <li>47 Ag</li>
+                    <li>48 Cd</li>
+                    <li>49 In</li>
+                    <li>50 Sn</li>
+                    <li>51 Sb</li>
+                    <li>52 Te</li>
+                    <li>53 I</li>
+                    <li>54 Xe</li>
+                    <li>55 Cs</li>
+                    <li>56 Ba</li>
+                    <li>57 La</li>
+                    <li>58 Ce</li>
+                    <li>59 Pr</li>
+                    <li>60 Nd</li>
+                    <li>61 Pm</li>
+                    <li>62 Sm</li>
+                    <li>63 Eu</li>
+                    <li>64 Gd</li>
+                    <li>65 Tb</li>
+                    <li>66 Dy</li>
+                    <li>67 Ho</li>
+                    <li>68 Er</li>
+                    <li>69 Tm</li>
+                    <li>70 Yb</li>
+                    <li>71 Lu</li>
+                    <li>72 Hf</li>
+                    <li>73 Ta</li>
+                    <li>74 W</li>
+                    <li>75 Re</li>
+                    <li>76 Os</li>
+                    <li>77 Ir</li>
+                    <li>78 Pt</li>
+                    <li>79 Au</li>
+                    <li>80 Hg</li>
+                    <li>81 Tl</li>
+                    <li>82 Pb</li>
+                    <li>83 Bi</li>
+                    <li>84 Po</li>
+                    <li>85 At</li>
+                    <li>86 Rn</li>
+                    <li>87 Fr</li>
+                    <li>88 Ra</li>
+                    <li>89 Ac</li>
+                    <li>90 Th</li>
+                    <li>91 Pa</li>
+                    <li>92 U</li>
+                    <li>93 Np</li>
+                    <li>94 Pu</li>
+                    <li>95 Am</li>
+                    <li>96 Cm</li>
+                    <li>97 Bk</li>
+                    <li>98 Cf</li>
+                    <li>99 Es</li>
+                    <li>100 Fm</li>
+                    <li>101 Md</li>
+                    <li>102 No</li>
+                    <li>103 Lr</li>
+                    <li>104 Rf</li>
+                    <li>105 Db</li>
+                    <li>106 Sg</li>
+                    <li>107 Bh</li>
+                    <li>108 Hs</li>
+                    <li>109 Mt</li>
+                    <li>110 Ds</li>
+                    <li>111 Uuu</li>
+                    <li>112 Uub</li>
+                    <li>113 Uut</li>
+                    <li>114 Uuq</li>
+                    <li>115 Uup</li>
+                    <li>116 Uuh</li>
+                    <li>117 *Uus</li>
+                    <li>118 Uuo</li>
+                    <li>119 *Uue</li>
+                    <li>120 *Ubn</li>
+                </ul>
+                <hr>
+                <b>Example Usages:</b>
+                <pre id="code">
+                
+                </pre>
+
+            </div>
+
+            
+        </div>
+    
+    <footer>
+  <hr>
+    <div class="col-lg-12">
+      <div class="col-md-8">
+        <a href="https://github.com/YazilimMuhendisiyizBiz/convert.js">Supporter and Opinion</a> | <a href="http://yazilimmuhendisiyiz.biz/">Web Site</a>    
+      </div>
+      <div class="col-md-4">
+        <span class="muted pull-right">© 2015 YazilimMuhendisiyizBiz. All rights reserved</span>
+      </div>
+    </div>
+  
+</footer>
+
+<script type="text/javascript">
+    $(function(){
+        $("#code").text('convert.Periodic(18);\n=> '+convert.Periodic(18)+' \n\nconvert.Periodic(10);\n=> '+cconvert.Periodic(10)+' \n\nconvert.Periodic(120);\n=> '+cconvert.Periodic(120)+'\n\nconvert.Periodic(0);\n=> '+convert.Periodic(0));
+    })
+</script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>
+
+
+
