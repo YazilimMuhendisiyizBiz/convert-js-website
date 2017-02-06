@@ -532,6 +532,18 @@ Supporter:Ahmet Urgancı
         console.log('convert.Periodic(76): ', convert.Periodic(76));
         console.groupEnd('%c Convert Periodic', 'color:pink');
 
+        // convert.Periodic(data)
+        console.groupCollapsed('%c Convert Object to array', 'color:purple');
+        console.log('convert.ObjectToArray("hello, world", ","): ', convert.ObjectToArray("hello, world", ","));
+        console.log('convert.ObjectToArray("hello", ""): ', convert.ObjectToArray("hello", ""));
+        console.groupEnd('%c Convert Periodic', 'color:pink');
+
+        var jsonobject = {
+         Name : {
+         Text : "Convert.js Convert library",
+         Owner : "YazilimMuhendisiyizBiz"
+     }
+};
 
 
     </script>
