@@ -1122,7 +1122,7 @@
 	}
 
 
-convert.JsontoXML = function objectToXml(jsonobj) {
+convert.JsontoXML = function objectToXml(obj) {
         var xml = '';
         for (var prop in obj) {
             if (!obj.hasOwnProperty(prop)) {
