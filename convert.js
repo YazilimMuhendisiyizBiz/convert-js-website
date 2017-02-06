@@ -1104,7 +1104,9 @@
     };
 
     //Convert Multiple Lines to Javascript Array
+
 	convert.ObjectToArray = function(data, divider){
+
 		  var lines = data.split(divider);
 		  var output = [];
 		  var outputText = [];
@@ -1118,6 +1120,7 @@
 		  //var jsarray = '[' + outputText + ']';
 		  return output;
 	}
+
 
 convert.JsontoXML = function objectToXml(jsonobj) {
         var xml = '';
@@ -1138,4 +1141,6 @@ convert.JsontoXML = function objectToXml(jsonobj) {
     }
 
 return convert;
+
+
 }));
