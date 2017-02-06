@@ -1104,7 +1104,9 @@
     };
 
     //Convert Multiple Lines to Javascript Array
-	convert.ObjectToArray=function(data, divider){
+
+	convert.ObjectToArray = function(data, divider){
+
 		  var lines = data.split(divider);
 		  var output = [];
 		  var outputText = [];
@@ -1119,5 +1121,26 @@
 		  return output;
 	}
 
-    return convert;
+
+convert.JsontoXML = function objectToXml(jsonobj) {
+        var xml = '';
+        for (var prop in obj) {
+            if (!obj.hasOwnProperty(prop)) {
+                continue;
+            }
+            if (obj[prop] == undefined)
+                continue;
+            xml += "<" + prop + ">";
+            if (typeof obj[prop] == "object")
+                xml += objectToXml(new Object(obj[prop]));
+            else
+                xml += obj[prop];
+            xml += "</" + prop + ">";
+        }
+        return xml;
+    }
+
+return convert;
+
+
 }));
